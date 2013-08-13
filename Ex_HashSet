@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Ex_HashSet {
+
+    public static void main(String[] args) {
+        HashSet hs = new HashSet();
+        hs.add("國文"); // String
+        hs.add(100); // Integer
+        hs.add("數學"); // String
+        hs.add(90); // Integer
+
+        System.out.println(hs);
+
+    }
+}
